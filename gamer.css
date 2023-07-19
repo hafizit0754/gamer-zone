@@ -215,11 +215,13 @@ span {
 .paly-section {
     border: 1px solid pink;
     margin-top: 20px;
-    /* display: flex; */
 }
 
 .play-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .play-span {
@@ -230,22 +232,24 @@ span {
 }
 
 .paly-title {
-    /* text-align: right; */
-
+padding-left: 10rem;
     font-size: 48px;
-
     font-weight: 700;
-    line-height: 60px;
-    /* 125% */
+    /* line-height: 60px; */
 }
 
 .paly-des {
     color: #534C64;
-    /* text-align: right; */
     font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+ 
+}
+.play-img{
+    padding-right: 6rem;
+}
+.play-title-des {
+    text-align: end;
 }
