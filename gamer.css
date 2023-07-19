@@ -1,0 +1,251 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav Section */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid blue;
+    list-style: none;
+}
+
+.logo {
+    height: 2.5rem;
+}
+
+.logo-container {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-btn {
+    width: 262px;
+    height: 56px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+    text-align: left;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-social {
+    /* color: #F61C0D; */
+    /* width: 33.916px;
+    height: 24px; */
+    margin-left: 20px;
+
+}
+
+.nav-social1 {
+    /* color: #F61C0D; */
+    /* width: 20px;
+    height: 20px; */
+    margin-left: 20px;
+}
+
+.social-btn,
+img {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+
+/* Banner section  */
+.banner-container {
+    border: 1px solid red;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /* padding: 290px; */
+
+}
+
+.goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5.93rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.banner-btn1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-style: none;
+    margin-top: 41px;
+    color: white;
+}
+
+.banner-btn2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border-style: none;
+
+}
+
+.fa-circle-play {
+    padding-bottom: 10px;
+}
+
+.fa-globe {
+    padding-bottom: 10px;
+}
+
+.banner-title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    border: 1px solid green;
+
+}
+
+/* we are gamer */
+
+.we-are-gamer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+
+.gmaer-title h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gmaer-title p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* Online Games */
+.online-games {
+    border: 1px solid brown;
+    margin-top: 20px;
+
+}
+
+span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.online-games-sub {
+    color: #534C64;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.card-container img {
+    width: 280px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: left; */
+    /* align-items: center; */
+}
+
+.card-des {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+/* Play section */
+.paly-section {
+    border: 1px solid pink;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.play-container {
+    display: flex;
+}
+
+.play-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paly-title {
+    /* text-align: right; */
+
+    font-size: 48px;
+
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.paly-des {
+    color: #534C64;
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
