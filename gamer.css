@@ -351,9 +351,8 @@ span {
 
 /* footer section */
 .footer-container{
-    background-color: black;
+    background: #0B0223;
     border: 1px solid violet;
-    
 }
 .footer-logo-container {
     display: flex;
@@ -390,6 +389,31 @@ font-weight: 600;
     width: 50px;
     height: 50px;
     /* gap: 30px; */
+}
+.footer-ploicy{
+    width: 55%;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 350px;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60);
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 400px;
+    font-size: 1rem;
+    font-weight: 500;
+
 }
 
 
