@@ -34,6 +34,10 @@
     text-align: left;
     padding-bottom: 10px;
 }
+li:hover {
+    color: #F948B2;
+    cursor: pointer;
+}
 
 .nav-btn img {
     margin-left: 30px;
