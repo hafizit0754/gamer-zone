@@ -37,6 +37,7 @@
 li:hover {
     color: #F948B2;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .nav-btn img {
