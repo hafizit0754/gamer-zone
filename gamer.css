@@ -485,7 +485,7 @@ border-style: none;
     .nav-container,
     .banner-img-containe {
         flex-direction: column;
-        width: 170%;
+        width: 100%;
         padding-left: 200px;
         align-items: center;
         text-align: center;
@@ -502,22 +502,29 @@ border-style: none;
     .banner-img-container,
     .we-are-gamer,
     .online-games,
-
-    .img-container {
+    .img-container,
+    /* .career-container, */
+    .career-title,
+    .career-des,
+    .box-container {
         flex-direction: column;
         align-items: center;
+        width:300%;
+        padding: 10px;
 
     }
+    /* .career-img{
+        flex-direction: row;
+    } */
 
     .card-container,
     .card-des {
-        display: grid;
-        grid-template-columns: 1 auto;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-container {
-        flex-direction: column;
-
-        height: 100vh;
+       width: 100%;
+       
     }
 }
